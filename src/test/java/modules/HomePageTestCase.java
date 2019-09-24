@@ -9,7 +9,6 @@ import supports.CommonFunctions;
 
 public class HomePageTestCase {
     private static WebDriver driver;
-    HomePage homePage = new HomePage(driver);
 
     @BeforeTest
     public static void setup(){
@@ -19,6 +18,7 @@ public class HomePageTestCase {
 
     @Test
     public void loginSuccessful() throws InterruptedException {
+        HomePage homePage = new HomePage(driver);
         homePage.clickLogin();
         Thread.sleep(5000);
     }
