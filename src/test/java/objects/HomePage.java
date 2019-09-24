@@ -18,7 +18,7 @@ public class HomePage {
     @FindBy(xpath = ".//li[@class='animate-delay-1']")
     public WebElement loginButton;
 
-    @FindBy
+    @FindBy erfg4rgtrheyhyjeyt
 
     //-----------------------------------------------------------------------------
 
